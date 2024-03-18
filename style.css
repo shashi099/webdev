@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav-bar{
+    /* background-color: brown; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+#nav-first{
+    font-size: 16px;
+}
+#menu{
+    border: 1.6px solid #000;
+    border-radius: 50px;
+    padding: 5px;
+}
+#icon{
+    border: 1.6px solid #000;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#second-part{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+#btn1{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+    background-color: white;
+}
+#btn2{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: orangered;
+}
+
+#big-font{
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+img{
+    position: absolute;
+    height: 350px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50% , -50%);
+    border-radius: 25px;
+}
+#img1{
+    transform: translate(-50% , -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50% , -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50% , -50%) rotate(-10deg);
+}
+
+#belowHead{
+    position:  absolute;
+    bottom: 5%;
+    left: 40px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+#belowIcon{
+    position: absolute;
+    font-size: 100px;
+    bottom: 2px; 
+    left: 50%;
+}
+#footer{
+    position: absolute;
+    right: 40px;
+    bottom: 5%;
+}
+#first-foot, i{
+    font-size: 20px;
+}
+
